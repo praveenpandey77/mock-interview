@@ -3,6 +3,29 @@
   
   <head>mock interview</head>
 
-  <body>{{jobS=JOBS}}</body>
+  <body>
+    <h1>praveen is doing hard work</h1>
+    <img src="https://mock-interview.praveenpandey77.repl.co/static/praveen.jpeg" height="320px"
+      
+      
+      
+      <h2>About praveen</h2>
+
+    
+    <div>
+      {%for detail in details%}
+        <div>
+      <h4>{{details['NAME']}}</h4>
+        </div>
+          <div>
+        <h4>{{details['ADDRESS']}}</h4>
+          </div>
+      
+      {%endfor%}
+    </div>
+    <h2>opening position</h2>
+    <p>{{character}}</p>
+      
+  </body>
 
 </html>
